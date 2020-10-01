@@ -7,7 +7,7 @@ const foo = "a big house, five car garage"
 //https://dog.ceo/api/breeds/image/random
 
 app.get('/', (req, res) => 
-	res.send(`Hello World!\n <p>So ya wanna be a rap supastar? and live large? ${foo} </p>\n`); 
+	res.send(`Hello World!\n <p>So ya wanna be a rap supastar? and live large? ${foo} </p>\n`) 
 )
 
 app.use(express.static(`${__dirname}/public`));
